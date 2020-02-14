@@ -1,0 +1,35 @@
+name: speech
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - cython=0.29.14
+  - ipykernel=5.1.4
+  - ipython=7.12.0
+  - joblib=0.14.1
+  - jupyter_client=5.3.4
+  - jupyter_contrib_core=0.3.3
+  - jupyter_contrib_nbextensions=0.5.1
+  - jupyter_core=4.6.1
+  - jupyter_highlight_selected_word=0.2.0
+  - jupyter_latex_envs=1.4.4
+  - jupyter_nbextensions_configurator=0.4.1
+  - nbconvert=5.6.1
+  - nbformat=5.0.4
+  - ncurses=6.1
+  - notebook=6.0.3
+  - numba=0.48.0
+  - numpy=1.18.1
+  - numpy-base=1.18.1
+  - pip=20.0.2
+  - python=3.7.6
+  - scikit-learn=0.22.1
+  - scipy=1.4.1
+  - pip:
+    - jiwer==1.3.2
+    - lesscpy==0.14.0
+    - ply==3.11
+    - spectral==0.1.7
+prefix: /home/dimitri/anaconda3/speech
+
